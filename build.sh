@@ -14,6 +14,16 @@ RELEASE="$(rpm -E %fedora)"
 
 # this installs a package from fedora repos
 rpm-ostree install screen
+rpm-ostree install android-tools
+rpm-ostree install dfu-util
+rpm-ostree install heimdall
+rpm-ostree fira-code-fonts
+
+rpm-ostree uninstall tmux
+rpm-ostree uninstall firefox
+rpm-ostree uninstall firefox-langpacks
+rpm-ostree uninstall gnome-software
+rpm-ostree uninstall gnome-software-rpm-ostree
 
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
