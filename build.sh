@@ -12,21 +12,25 @@ RELEASE="$(rpm -E %fedora)"
 # List of rpmfusion packages can be found here:
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
-# this installs a package from fedora repos
-rpm-ostree install screen
+# install stuff that i may want/need as a package outside of toolbox/distrobox
+
 rpm-ostree install android-tools
 rpm-ostree install dfu-util
+rpm-ostree install fira-code-fonts
 rpm-ostree install heimdall
-rpm-ostree fira-code-fonts
+rpm-ostree install picocom
+rpm-ostree install screen
 
+# uninstall stuff that was added by ublue:main that i don't need
 rpm-ostree uninstall tmux
+
+# uninstall stuff that is in silverblue that i don't need
 rpm-ostree uninstall firefox
 rpm-ostree uninstall firefox-langpacks
 rpm-ostree uninstall gnome-software
 rpm-ostree uninstall gnome-software-rpm-ostree
 
-# this would install a package from rpmfusion
-# rpm-ostree install vlc
+# TODO: add mullvad tool, add own service for laptop bat maintenance, add other stuff i may need outside
 
 #### Example for enabling a System Unit File
 
