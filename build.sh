@@ -25,10 +25,20 @@ rpm-ostree install screen
 rpm-ostree uninstall tmux
 
 # uninstall stuff that is in silverblue that i don't need
+# INFO: reference https://github.com/ublue-os/main/blob/main/packages.json
+rpm-ostree uninstall apr-util
+rpm-ostree uninstall apr
 rpm-ostree uninstall firefox-langpacks
 rpm-ostree uninstall firefox
+rpm-ostree uninstall fzf
+rpm-ostree uninstall gnome-epub-thumbnailer
 rpm-ostree uninstall gnome-software-rpm-ostree
 rpm-ostree uninstall gnome-software
+rpm-ostree uninstall gnome-tweaks
+rpm-ostree uninstall just
+rpm-ostree uninstall net-tools
+rpm-ostree uninstall traceroute
+rpm-ostree uninstall vim
 
 # TODO: add mullvad tool, add own service for laptop bat maintenance, add other stuff i may need outside
 
