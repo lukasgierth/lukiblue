@@ -25,10 +25,10 @@ rpm-ostree install screen
 rpm-ostree uninstall tmux
 
 # uninstall stuff that is in silverblue that i don't need
-rpm-ostree uninstall firefox
 rpm-ostree uninstall firefox-langpacks
-rpm-ostree uninstall gnome-software
+rpm-ostree uninstall firefox
 rpm-ostree uninstall gnome-software-rpm-ostree
+rpm-ostree uninstall gnome-software
 
 # TODO: add mullvad tool, add own service for laptop bat maintenance, add other stuff i may need outside
 
