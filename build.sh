@@ -35,7 +35,6 @@ rpm-ostree uninstall gnome-software
 rpm-ostree uninstall gnome-tweaks
 rpm-ostree uninstall net-tools
 rpm-ostree uninstall traceroute
-rpm-ostree uninstall vim
 
 # TODO: add mullvad tool, add own service for laptop bat maintenance, add other stuff i may need outside
 
