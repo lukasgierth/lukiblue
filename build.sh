@@ -33,7 +33,6 @@ rpm-ostree uninstall gnome-epub-thumbnailer
 rpm-ostree uninstall gnome-software-rpm-ostree
 rpm-ostree uninstall gnome-software
 rpm-ostree uninstall gnome-tweaks
-rpm-ostree uninstall just
 rpm-ostree uninstall net-tools
 rpm-ostree uninstall traceroute
 rpm-ostree uninstall vim
