@@ -26,8 +26,6 @@ rpm-ostree uninstall tmux
 
 # uninstall stuff that is in silverblue that i don't need
 # INFO: reference https://github.com/ublue-os/main/blob/main/packages.json
-rpm-ostree uninstall apr-util
-rpm-ostree uninstall apr
 rpm-ostree uninstall firefox-langpacks
 rpm-ostree uninstall firefox
 rpm-ostree uninstall fzf
