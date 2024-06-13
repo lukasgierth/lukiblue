@@ -33,7 +33,6 @@ rpm-ostree uninstall firefox-langpacks
 rpm-ostree uninstall firefox
 rpm-ostree uninstall fzf
 rpm-ostree uninstall gnome-epub-thumbnailer
-rpm-ostree uninstall gnome-extensions-app
 rpm-ostree uninstall gnome-software-rpm-ostree
 rpm-ostree uninstall gnome-software
 rpm-ostree uninstall gnome-tour
