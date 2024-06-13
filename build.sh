@@ -17,9 +17,11 @@ RELEASE="$(rpm -E %fedora)"
 rpm-ostree install android-tools
 rpm-ostree install dfu-util
 rpm-ostree install fira-code-fonts
+rpm-ostree install gcc
+rpm-ostree install gnome-shell-extension-blur-my-shell
+rpm-ostree install gnome-shell-extension-caffeine
 rpm-ostree install heimdall
 rpm-ostree install picocom
-rpm-ostree install screen
 
 # uninstall stuff that was added by ublue:main that i don't need
 rpm-ostree uninstall tmux
@@ -35,6 +37,7 @@ rpm-ostree uninstall gnome-software
 rpm-ostree uninstall gnome-tweaks
 rpm-ostree uninstall net-tools
 rpm-ostree uninstall traceroute
+rpm-ostree uninstall ublue-os-update-services
 
 # TODO: add mullvad tool, add own service for laptop bat maintenance, add other stuff i may need outside
 
