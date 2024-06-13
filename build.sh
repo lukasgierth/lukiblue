@@ -16,12 +16,9 @@ RELEASE="$(rpm -E %fedora)"
 
 # INFO: INSTALL
 rpm-ostree install android-tools
-rpm-ostree install dfu-util
 rpm-ostree install fira-code-fonts
 rpm-ostree install gcc
 rpm-ostree install gnome-shell-extension-caffeine
-rpm-ostree install heimdall
-rpm-ostree install picocom
 
 # INFO: UNINSTALL
 # INFO: reference https://github.com/ublue-os/main/blob/main/packages.json
@@ -39,7 +36,7 @@ rpm-ostree uninstall tmux
 rpm-ostree uninstall traceroute
 rpm-ostree uninstall ublue-os-update-services
 
-# TODO: add mullvad tool, add own service for laptop bat maintenance, add other stuff i may need outside
+# TODO: add mullvad tool?, add own service for laptop battery maintenance, add other stuff i may need outside
 rm -f /usr/share/applications/htop.desktop
 
 # TODO: some of the bluefin devtools maybe? https://github.com/ublue-os/bluefin/blob/main/packages.json
