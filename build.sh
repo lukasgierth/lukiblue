@@ -17,7 +17,7 @@ RELEASE="$(rpm -E %fedora)"
 rpm-ostree install android-tools
 rpm-ostree install dfu-util
 rpm-ostree install fira-code-fonts
-rpm-ostree install gcc
+# rpm-ostree install gcc
 rpm-ostree install gnome-shell-extension-blur-my-shell
 rpm-ostree install gnome-shell-extension-caffeine
 rpm-ostree install heimdall
