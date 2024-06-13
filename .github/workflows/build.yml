@@ -2,7 +2,7 @@
 name: build-ublue-custom
 on:
   schedule:
-    - cron: '05 02 * * *'  # 10:05am UTC everyday
+    - cron: '05 02 * * *'  # 02:05am UTC everyday
   workflow_dispatch:
 
 env:
